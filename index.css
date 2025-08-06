@@ -3,7 +3,6 @@
   --pink: #E100FF;
 }
 
-/* General */
 body {
   font-family: 'Segoe UI', sans-serif;
 }
@@ -38,11 +37,4 @@ body {
   background: linear-gradient(to right, var(--purple), var(--pink));
   height: 80vh;
   color: white;
-}
-
-/* Responsive tweak */
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
 }
