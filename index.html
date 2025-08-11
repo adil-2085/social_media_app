@@ -16,14 +16,56 @@
     <!-- font awsome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- custom style link -->
-    <link rel="stylesheet" href="/index.css" />
-</head>
-<body>
+    <!-- custom style  -->
+    <style>
 
+      :root {
+      --purple: #7F00FF;
+      --pink: #E100FF;
+      }
+    
+      body {
+        font-family: 'Segoe UI', sans-serif;
+      }
+    
+      .text-purple {
+        color: var(--purple);
+      }
+    
+      .btn-purple {
+        background: linear-gradient(to right, var(--purple), var(--pink));
+        color: white;
+        border: none;
+      }
+    
+      .btn-purple:hover {
+        opacity: 0.9;
+      }
+    
+      .btn-outline-purple {
+        border: 1px solid var(--purple);
+        color: var(--purple);
+        background-color: transparent;
+      }
+      
+      .btn-outline-purple:hover {
+        background: var(--purple);
+        color: white;
+      }
+      
+      /* Hero section */
+      .hero {
+        background: linear-gradient(to right, var(--purple), var(--pink));
+        height: 80vh;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    
   <!-- Navbar -->
   <nav class="navbar navbar-light bg-white shadow-sm px-4">
-    <a class="navbar-brand fw-bold fs-4 text-purple" href="#">ZOCIAL</a>
+    <a class="navbar-brand fw-bold fs-4 text-purple" href="#"><i class="fa-brands fa-slack"></i>ZOCIAL</a>
     <div>
       <a href="login.html" class="btn btn-outline-purple me-2">Log In</a>
       <a href="signup.html" class="btn btn-purple">Sign Up</a>
